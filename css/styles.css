@@ -1,0 +1,145 @@
+/* MY COLOURS:
+4: #053742
+3: #39A2DB
+2: #A2DBFA
+1: #E8F0F2
+
+FONT:
+font-family: 'Arimo', sans-serif;
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    background-color: #f9f9f9;
+
+}
+
+h1 {
+    /* using round the clock margin TOP, RIGHT, BOTTOM, LEFT */
+    margin: 50px auto 0 auto;
+    /* 90(px) / 16 = 5.625 */
+    font-size: 5.625rem;
+    /* color: #39A2DB; */
+}
+
+h3, h2, {
+    color: #39A2DB;
+}
+
+a {
+    color: #39A2DB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+hr {
+    border-top: 3px double #8c8b8b;
+    width: 20%;
+    margin: 50px auto;
+}
+
+.welcome_p {
+    font-family: 'Lovers Quarrel', cursive;
+    /* 44(px) / 16 = 2.5 */
+    font-size: 2.75rem;
+    font-weight: 500;
+    color: #A2DBFA;
+}
+
+.top_container {
+    /* background-color: #A2DBFA; */
+    background-color: #39A2DB;
+    position: relative;
+    padding-top: 75px;
+}
+
+
+.middle_container {
+    margin: 50px 0
+}
+
+
+.bottom_container {
+    background-color: #E8F0F2;
+    width: 100%;
+    margin: auto;
+    padding: 34px 0 18px;
+}
+
+
+.top_cloud {
+    position: absolute;
+    right: 450px;
+    top: 50px;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 470px;
+    top: 225px;
+}
+
+.welcome {
+    width: 175px;
+    height: 175px;
+    object-fit: scale-down;
+}
+
+
+.skill-row1 {
+    width: 50%;
+    margin: 25px auto 25px auto;
+    text-align: left;
+}
+
+.ecom_image {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row2 {
+    width: 50%;
+    margin: 25px auto 25px auto;
+    text-align: right;
+}
+
+.fma_image {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #000000;
+    font-size: 20px;
+    background: #E8F0F2;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background: #39A2DB;
+  text-decoration: none;
+}
+
+.attributions {
+    /* 8(px) / 16 = 0.5 */
+    font-size: 0.5rem;
+    background-color: #E8F0F2;
+    width: 100%;
+    margin: auto;
+}
