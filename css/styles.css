@@ -8,6 +8,11 @@ FONT:
 font-family: 'Arimo', sans-serif;
 */
 
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -25,7 +30,7 @@ h1 {
     /* color: #39A2DB; */
 }
 
-h3, h2, {
+h3, h2 {
     color: #39A2DB;
 }
 
